@@ -64,4 +64,37 @@ console.log( typeof myfunction) --> object (function object)
 data type of non-primitive data type is object
 
 
+*********************** Memmories ****************************
+
+2 types:
+    Stack   : All primitive types uses stack        --> u will get a copy
+    Heap    : All non-primitive types uses heap     --> u will get a reference of original value
+
+
+
+
+let name = "bony"
+let anotherName = name
+
+//updating anotherName
+anotherName = "john"
+console.log(name)           -->bony
+console.log(anotherName)    -->john 
+
+
+
+let user1 = {
+    name: 'bony',
+    email: 'bony@gmail.com'
+}
+
+let user2 = user1
+
+user2.name = "john"
+
+console.log(user1.name) --> john
+console.log(user2.name) --> john
+
+**whatever going inside heap, if are trying to access we will get the reference
+
 */
