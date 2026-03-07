@@ -1,6 +1,6 @@
 "use strict"; // treats all code as newer version of JavaScript, and prevents us from using undeclared variables
 
-alert("Hello World!"); // this will show an alert box only in the browser, not in node.js
+// alert("Hello World!"); // this will show an alert box only in the browser, not in node.js
 
 console.log("hello world"); // ; is not mandatory, but it is good -- we should always try to maintaind code readability
 
@@ -48,3 +48,5 @@ string => string
 symbol => symbol
 object => object
 */
+
+console.log(typeof null); 
